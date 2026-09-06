@@ -1,0 +1,94 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "Маргарита",
+      "ingredients": "Томатный соус, моцарелла, базилик, оливковое масло",
+      "image": "/img/margarita.webp",
+      "price": 450
+    },
+    {
+      "id": 2,
+      "name": "Пепперони",
+      "ingredients": "Томатный соус, моцарелла, пепперони, орегано",
+      "image": "/img/pepperoni.webp",
+      "price": 520
+    },
+    {
+      "id": 3,
+      "name": "Гавайская",
+      "ingredients": "Томатный соус, моцарелла, курица, ананас, сладкий перец",
+      "image": "/img/hawaiian.webp",
+      "price": 560
+    },
+    {
+      "id": 4,
+      "name": "Четыре сыра",
+      "ingredients": "Сливочный соус, моцарелла, пармезан, горгонзола, фета",
+      "image": "/img/4cheese.webp",
+      "price": 600
+    },
+    {
+      "id": 5,
+      "name": "Мясная",
+      "ingredients": "Томатный соус, моцарелла, пепперони, бекон, ветчина, колбаса чоризо",
+      "image": "/img/meat_lovers.webp",
+      "price": 680
+    },
+    {
+      "id": 6,
+      "name": "Вегетарианская",
+      "ingredients": "Томатный соус, моцарелла, грибы, перец, оливки, лук, помидоры",
+      "image": "/img/veggie.webp",
+      "price": 490
+    }
+  ],
+  "users": [
+    {
+      "email": "tylllb@mail.ru",
+      "password": "$2a$10$jkr0WPSTrQYUr8AShAJeT.wX6ZXe.nMGMAxqlysdFTaiH1VU1Ozjm",
+      "id": 1
+    },
+    {
+      "email": "admin@info.com",
+      "password": "$2a$10$eiM5DajGh7ZNp4Cjyv565usNBTteqTeKbCWaFMcZ23NqprQlQDtRu",
+      "id": 2
+    },
+    {
+      "email": "max.glinskikh@yandex.ru",
+      "password": "$2a$10$JJ7n.gcE9WN1kH1/8nfrD.9CYS4eaU3yxpd5WODQd1Oc0yRv1T8oG",
+      "id": 3
+    },
+    {
+      "email": "gremlin18.niti@gmail.com",
+      "password": "$2a$10$hKu.cVQ9wdSL/nO7dw36jOQmuMmGFbVyNtR/Vp11jIfyL8x.KtPyi",
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "order": null,
+      "userId": "4",
+      "date": "2026-08-05T12:20:13.097Z",
+      "id": 1
+    },
+    {
+      "order": null,
+      "userId": "4",
+      "date": "2026-08-05T12:20:57.005Z",
+      "id": 2
+    },
+    {
+      "order": null,
+      "userId": "4",
+      "date": "2026-08-05T12:22:13.936Z",
+      "id": 3
+    },
+    {
+      "order": null,
+      "userId": "4",
+      "date": "2026-08-05T12:25:24.322Z",
+      "id": 4
+    }
+  ]
+}
